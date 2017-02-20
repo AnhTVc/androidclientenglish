@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="english.project.com.toiec.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/intermediatelogo"
+            android:id="@+id/imageBookNameIntermediate"
+            ></ImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageBookNameIntermediate">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="12dp"
+                android:text= "Publishing company: BKHN "
+                android:id="@+id/tvBookNameIntermediate"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="33dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="14dp"
+                android:text="Progress: 80%"
+                android:id="@+id/progressIntermediate"
+                android:layout_below="@+id/tvBookNameIntermediate"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="14dp"
+                android:text= "Book's name: "
+                android:id="@+id/publisherIntermediate"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height= "70dp"
+            android:text="Begin"
+            android:textAllCaps="false"
+            android:id="@+id/btnA"
+            android:background="@drawable/button_states"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageBookNameIntermediate"
+            android:layout_toEndOf="@+id/imageBookNameIntermediate"
+            android:layout_marginLeft="165dp"
+            android:layout_marginStart="165dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="12dp"
+            android:text= "Publishing company: BKHN "
+            android:id="@+id/tvBookNameAdvanced"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="33dp"
+            android:layout_toRightOf="@+id/imageBookNameAdvanced"
+            android:layout_toEndOf="@+id/imageBookNameAdvanced" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"
+            android:text= "Book's name: "
+            android:layout_alignParentEnd="true"
+            android:id="@+id/publisherAdvanced"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/imageBookNameAdvanced"
+            android:layout_toEndOf="@+id/imageBookNameAdvanced" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"
+            android:text="Progress: 80%"
+            android:id="@+id/progressAdvanced"
+            android:layout_below="@+id/tvBookNameAdvanced"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/imageBookNameAdvanced"
+            android:layout_toEndOf="@+id/imageBookNameAdvanced" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/imageadvanced"
+            android:id="@+id/imageBookNameAdvanced"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></ImageView>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height= "70dp"
+            android:text="Begin"
+            android:textAllCaps="false"
+            android:id="@+id/btnB"
+            android:background="@drawable/button_states"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageBookNameAdvanced"
+            android:layout_toEndOf="@+id/imageBookNameAdvanced"
+            android:layout_marginLeft="165dp"
+            android:layout_marginStart="165dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="12dp"
+            android:text= "Publishing company: BKHN "
+            android:id="@+id/tvBookNameMoreTest"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="33dp"
+            android:layout_toRightOf="@+id/imageBookNameMoreTest"
+            android:layout_toEndOf="@+id/imageBookNameMoreTest" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"
+            android:text= "Book's name: "
+            android:layout_alignParentEnd="true"
+            android:id="@+id/publisherMoreTest"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/imageBookNameMoreTest"
+            android:layout_toEndOf="@+id/imageBookNameMoreTest" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"
+            android:text="Progress: 80%"
+            android:id="@+id/progressMoreTest"
+            android:layout_below="@+id/tvBookNameMoreTest"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/imageBookNameMoreTest"
+            android:layout_toEndOf="@+id/imageBookNameMoreTest" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/imagemoretest"
+            android:id="@+id/imageBookNameMoreTest"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></ImageView>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height= "70dp"
+            android:text="Begin"
+            android:textAllCaps="false"
+            android:id="@+id/btnMore"
+            android:background="@drawable/button_states"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageBookNameMoreTest"
+            android:layout_toEndOf="@+id/imageBookNameMoreTest"
+            android:layout_marginLeft="165dp"
+            android:layout_marginStart="165dp" />
+    </RelativeLayout>
+</LinearLayout>

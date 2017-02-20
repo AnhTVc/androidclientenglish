@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Temple cho question, e.g: question past 3, question past 4-->
+    <!-- Question content-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/dis_bw_question_choose"
+        android:layout_marginBottom="@dimen/dis_bw_question_choose"
+        android:text="What is the man is problem?"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dis_bw_choose_choose"
+        android:layout_marginBottom="@dimen/dis_bw_choose_choose">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="A"
+            android:id="@+id/btnA"
+            android:background="@drawable/button_states"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="His computer is broken"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btnA"
+            android:layout_toEndOf="@+id/btnA"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dis_bw_choose_choose"
+        android:layout_marginBottom="@dimen/dis_bw_choose_choose">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="B"
+            android:id="@+id/btnB"
+            android:background="@drawable/button_states"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="His computer is broken"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btnB"
+            android:layout_toEndOf="@+id/btnB"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dis_bw_choose_choose"
+        android:layout_marginBottom="@dimen/dis_bw_choose_choose">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="C"
+            android:id="@+id/btnC"
+            android:background="@drawable/button_states"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="His computer is broken"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btnC"
+            android:layout_toEndOf="@+id/btnC"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dis_bw_choose_choose"
+        android:layout_marginBottom="@dimen/dis_bw_choose_choose">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="D"
+            android:id="@+id/btnD"
+            android:background="@drawable/button_states"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="His computer is broken"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btnD"
+            android:layout_toEndOf="@+id/btnD"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+    </RelativeLayout>
+
+    <!-- Question choose-->
+</LinearLayout>

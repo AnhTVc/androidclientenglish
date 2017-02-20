@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_toeic_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/colorBG"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="english.project.com.toiec.english.project.com.service.util.ToeicTestActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:paddingTop="16dp"
+                android:id="@+id/relativeLayout"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="Question Past Two"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 questions"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+
+                    android:id="@+id/donut_progresspasttwo"
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:paddingTop="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="Question Past One"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="40 questions"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+
+                    android:id="@+id/donut_progresspastthree"
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:paddingTop="16dp"
+                android:id="@+id/relativeLayout1"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="Question Past Two"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 questions"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+
+                    android:id="@+id/donut_progresspastfour"
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:paddingTop="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="Question Past One"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="40 questions"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+
+                    android:id="@+id/donut_progresspastone"
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:paddingTop="16dp"
+                android:id="@+id/relativeLayout3"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="Question Past Two"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 questions"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+
+                    android:id="@+id/donut_progresspastfive"
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:paddingTop="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="Question Past One"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="40 questions"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+
+                    android:id="@+id/donut_progresspastsix"
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:paddingTop="16dp"
+                android:id="@+id/relativeLayout4"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="Question Past Two"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 questions"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+
+                    android:id="@+id/donut_progresspastseven"
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
