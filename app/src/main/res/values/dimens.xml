@@ -6,6 +6,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding">5dp</dimen>
     <dimen name="dis_bw_question_choose">15dp</dimen>
     <dimen name="dis_bw_choose_choose">10dp</dimen>
 </resources>

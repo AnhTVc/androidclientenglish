@@ -1,8 +1,10 @@
 package english.project.com.toiec;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,9 +14,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+
+import english.project.com.toiec.english.project.com.service.util.ConstantDefine;
+import english.project.com.toiec.english.project.com.service.util.ToeicTestActivity;
+import english.project.com.toiec.question.QuestionMainActivity;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
+    public final static String EXTRA_MESSAGE = "english.project.com.toiec.MESSAGE";
 
 
     @Override
@@ -42,7 +50,24 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        // TODO import/export p12 to keychain
+        // Onclick button
+        Button btnIntermediate = (Button) findViewById(R.id.btnIntermediate);
+        Button btnAdvanced = (Button) findViewById(R.id.btnAdvanced);
+        Button btnMoreTest = (Button) findViewById(R.id.btnMoreTest);
+
+        btnIntermediate.setOnClickListener(this);
+        btnAdvanced.setOnClickListener(this);
+        btnMoreTest.setOnClickListener(this);
+        /*
+         final Intent intent = new Intent(this, ToeicTestActivity.class);
+         new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra(EXTRA_MESSAGE, ConstantDefine.BOOK_LONGMAN_MoreTest);
+                startActivity(intent);
+            }
+        }*/
+
     }
 
     @Override
@@ -77,6 +102,21 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onClick(View v){
+        switch (v.getId()) {
+            case R.id.btnIntermediate:
+
+                break;
+            case R.id.btnAdvanced:
+
+                break;
+            case R.id.btnMoreTest:
+                break;
+            default:
+                break;
+        }
+    }
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {

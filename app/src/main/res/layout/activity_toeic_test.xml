@@ -35,7 +35,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
-                    android:text="Question Past Two"
+                    android:text="@string/question_pass_one"
                     android:textColor="@android:color/black"
                     android:gravity="center|center_horizontal"
                     android:textSize="13dp"
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
-                    android:text="Question Past One"
+                    android:text="@string/question_pass_two"
                     android:textColor="@android:color/black"
                     android:gravity="center|center_horizontal"
                     android:textSize="13dp"
@@ -136,7 +136,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
-                    android:text="Question Past Two"
+                    android:text="@string/question_pass_three"
                     android:textColor="@android:color/black"
                     android:gravity="center|center_horizontal"
                     android:textSize="13dp"
@@ -184,7 +184,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
-                    android:text="Question Past One"
+                    android:text="@string/question_pass_four"
                     android:textColor="@android:color/black"
                     android:gravity="center|center_horizontal"
                     android:textSize="13dp"
@@ -238,7 +238,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
-                    android:text="Question Past Two"
+                    android:text="@string/question_pass_five"
                     android:textColor="@android:color/black"
                     android:gravity="center|center_horizontal"
                     android:textSize="13dp"
@@ -286,7 +286,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
-                    android:text="Question Past One"
+                    android:text="@string/question_pass_six"
                     android:textColor="@android:color/black"
                     android:gravity="center|center_horizontal"
                     android:textSize="13dp"
@@ -339,7 +339,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
-                    android:text="Question Past Two"
+                    android:text="@string/question_pass_seven"
                     android:textColor="@android:color/black"
                     android:gravity="center|center_horizontal"
                     android:textSize="13dp"

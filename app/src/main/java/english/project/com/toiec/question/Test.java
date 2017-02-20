@@ -150,7 +150,40 @@ public class Test {
         return result;
     }
 
+    static String reverseVowelsOfString(String s) {
+        ArrayList<Character> strings = new ArrayList<>();
+        char[] input = s.toCharArray();
+        for(int i =0; i< input.length; i++){
+
+            if(input[i] == "a".charAt(0) || input[i] == "e".charAt(0) || input[i] == "i".charAt(0)
+                    || input[i] == "o".charAt(0)||input[i] == "u".charAt(0)||
+                    input[i] == "A".charAt(0) || input[i] == "E".charAt(0) || input[i] == "I".charAt(0)
+                    || input[i] == "O".charAt(0)||input[i] == "U".charAt(0)){
+                strings.add(input[i]);
+            }
+        }
+        int index = strings.size() -1;
+        for(int i =0; i< input.length; i++){
+
+            if(input[i] == "a".charAt(0) || input[i] == "e".charAt(0) || input[i] == "i".charAt(0)
+                    || input[i] == "o".charAt(0)||input[i] == "u".charAt(0)||
+                    input[i] == "A".charAt(0) || input[i] == "E".charAt(0) || input[i] == "I".charAt(0)
+                    || input[i] == "O".charAt(0)||input[i] == "U".charAt(0)){
+                input[i] = strings.get(index);
+                index --;
+            }
+        }
+
+        StringBuilder stringBuilder = new StringBuilder();
+        for(char a: input){
+            stringBuilder.append(String.valueOf(a));
+        }
+        return stringBuilder.toString();
+    }
+
+
     public static void main(String[] abc){
         System.out.print(isPowerOfTwo2("17179869184"));
+
     }
 }

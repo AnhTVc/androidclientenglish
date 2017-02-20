@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/imageadvanced"
+        android:id="@+id/imageBookNameAdvanced"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height= "40dp"
+        android:text="@string/make_test_two"
+        android:textAllCaps="false"
+        android:id="@+id/btnTestTwo"
+        android:background="@drawable/button_states"
+        android:textSize="12dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_alignTop="@+id/btnTestOne"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height= "40dp"
+        android:text="@string/make_test_one"
+        android:textAllCaps="false"
+        android:id="@+id/btnTestOne"
+        android:background="@drawable/button_states"
+        android:textSize="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageBookNameAdvanced"
+        android:layout_toEndOf="@+id/imageBookNameAdvanced"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height= "40dp"
+        android:text="@string/make_test_three"
+        android:textAllCaps="false"
+        android:id="@+id/btnTestThree"
+        android:background="@drawable/button_states"
+        android:textSize="12dp"
+        android:layout_alignBottom="@+id/imageBookNameAdvanced"
+        android:layout_alignLeft="@+id/btnTestOne"
+        android:layout_alignStart="@+id/btnTestOne" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height= "40dp"
+        android:text="@string/make_test_four"
+        android:textAllCaps="false"
+        android:id="@+id/btnTestFour"
+        android:background="@drawable/button_states"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/btnTestThree"
+        android:layout_alignLeft="@+id/btnTestTwo"
+        android:layout_alignStart="@+id/btnTestTwo" />
+</RelativeLayout>

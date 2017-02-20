@@ -6,4 +6,17 @@
 
     <string name="action_settings">Settings</string>
     <string name="question_temp">Rita Harwood</string>
+    <string name="question_pass_one">Question Past One</string>
+    <string name="question_pass_two">Question Past Two</string>
+    <string name="question_pass_three">Question Past Three</string>
+    <string name="question_pass_four">Question Past Four</string>
+    <string name="question_pass_five">Question Past Five</string>
+    <string name="question_pass_six">Question Past Six</string>
+    <string name="question_pass_seven">Question Past Seven</string>
+
+    <string name="begin">Begin</string>
+    <string name="make_test_one">Make Test One</string>
+    <string name="make_test_two">Make Test Two</string>
+    <string name="make_test_three">Make Test Three</string>
+    <string name="make_test_four">Make Test Four</string>
 </resources>
