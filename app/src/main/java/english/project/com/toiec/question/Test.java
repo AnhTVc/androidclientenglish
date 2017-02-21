@@ -180,10 +180,89 @@ public class Test {
         }
         return stringBuilder.toString();
     }
+    static int min(int a, int b, int c)
+    {
+        int m = a;
+        if (m > b)
+            m = b;
+        if (m > c)
+            m = c;
+        return m;
+    }
 
+    static int printMaxSubSquare(int M[][]) {
+        int i, j;
+        int R = M.length;
+        int C = M[0].length;
+        int S[][] = new int[R][C];
+        int max_of_s, max_i, max_j;
 
-    public static void main(String[] abc){
-        System.out.print(isPowerOfTwo2("17179869184"));
+  /* Set first column of S[][]*/
+        for (i = 0; i < R; i++)
+            S[i][0] = M[i][0];
 
+  /* Set first row of S[][]*/
+        for (j = 0; j < C; j++)
+            S[0][j] = M[0][j];
+
+  /* Construct other entries of S[][]*/
+        for (i = 1; i < R; i++) {
+            for (j = 1; j < C; j++) {
+                if (M[i][j] == 1)
+                    S[i][j] = min(S[i][j - 1], S[i - 1][j], S[i - 1][j - 1]) + 1;
+                else
+                    S[i][j] = 0;
+            }
+        }
+
+  /* Find the maximum entry, and indexes of maximum entry
+     in S[][] */
+        max_of_s = S[0][0];
+        max_i = 0;
+        max_j = 0;
+        for (i = 0; i < R; i++) {
+            for (j = 0; j < C; j++) {
+                if (max_of_s < S[i][j]) {
+                    max_of_s = S[i][j];
+                    max_i = i;
+                    max_j = j;
+                }
+            }
+        }
+        System.out.printf("\n Maximum size sub-matrix is: \n");
+        int index =0;
+        for(i = max_i; i > max_i - max_of_s; i--)
+        {
+            for(j = max_j; j > max_j - max_of_s; j--)
+            {
+                System.out.print(M[i][j]);
+                index ++;
+            }
+            System.out.print("\n");
+        }
+        System.out.print(index);
+        return index;
+    }
+    static int maximalSquare(char[][] matrix) {
+        int R = matrix.length;
+        int C = matrix[0].length;
+        int S[][] = new int[R][C];
+        for(int i =0; i< R; i++){
+            for(int j =0; j< C; j++){
+                S[i][j] = Integer.valueOf(String.valueOf(matrix[i][j]));
+            }
+        }
+        return printMaxSubSquare(S);
+
+    }
+        public static void main(String[] abc){
+        //System.out.print(isPowerOfTwo2("17179869184"));
+        char M[][] =  {{'0', '1', '1', '0', '1'},
+                {'1', '1', '0', '1', '0'},
+                {'0', '1', '1', '1', '0'},
+                {'1', '1', '1', '1', '0'},
+                {'1', '1', '1', '1', '1'},
+                {'0', '0', '0', '0', '0'}};
+            maximalSquare(M);
     }
 }

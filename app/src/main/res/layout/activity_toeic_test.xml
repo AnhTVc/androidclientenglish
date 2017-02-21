@@ -27,7 +27,7 @@
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:paddingTop="16dp"
-                android:id="@+id/relativeLayout"
+                android:id="@+id/linerLayoutPastOne"
                 android:background="@android:color/white"
                 android:orientation="vertical"
                 android:weightSum="1">
@@ -76,6 +76,7 @@
                 android:orientation="vertical"
                 android:weightSum="1"
                 android:layout_marginRight="16dp"
+                android:id="@+id/linerLayoutPastTwo"
                 android:layout_marginEnd="16dp"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true">
@@ -128,7 +129,7 @@
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:paddingTop="16dp"
-                android:id="@+id/relativeLayout1"
+                android:id="@+id/linerLayoutPastThree"
                 android:background="@android:color/white"
                 android:orientation="vertical"
                 android:weightSum="1">
@@ -177,6 +178,7 @@
                 android:orientation="vertical"
                 android:weightSum="1"
                 android:layout_marginRight="16dp"
+                android:id="@+id/linerLayoutPastFour"
                 android:layout_marginEnd="16dp"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true">
@@ -230,7 +232,7 @@
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:paddingTop="16dp"
-                android:id="@+id/relativeLayout3"
+                android:id="@+id/linerLayoutPastFive"
                 android:background="@android:color/white"
                 android:orientation="vertical"
                 android:weightSum="1">
@@ -277,6 +279,7 @@
                 android:paddingTop="16dp"
                 android:background="@android:color/white"
                 android:orientation="vertical"
+                android:id="@+id/linerLayoutPastSix"
                 android:weightSum="1"
                 android:layout_marginRight="16dp"
                 android:layout_marginEnd="16dp"
@@ -331,7 +334,7 @@
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:paddingTop="16dp"
-                android:id="@+id/relativeLayout4"
+                android:id="@+id/linerLayoutPastSeven"
                 android:background="@android:color/white"
                 android:orientation="vertical"
                 android:weightSum="1">

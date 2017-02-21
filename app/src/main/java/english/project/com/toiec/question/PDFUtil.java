@@ -11,17 +11,22 @@ import java.io.File;
 public interface PDFUtil {
     /**
      * File To String
-     *
      * @param filepath: duong dan toi file
      * @return
      */
-    public String fileToString(String filepath);
+    String fileToString(String filepath);
 
+    /**
+     * File to String
+     * @param file: file java
+     * @return: String
+     */
+    String fileToString(File file);
     /**
      * Auto init progress file of user when setup
      * @return
      */
-    public boolean autoInitProcessFile(Context context);
+    boolean autoInitProcessFile(Context context);
 
     /**
      * Kiểm tra sự tồn tại của file
@@ -29,5 +34,7 @@ public interface PDFUtil {
      * true: là tồn tại
      * false: là không tồn tại
      */
-    public boolean checkFileExist(File f);
+    boolean checkFileExist(File f);
+
+
 }

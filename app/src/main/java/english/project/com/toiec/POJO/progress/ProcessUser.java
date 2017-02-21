@@ -5,19 +5,31 @@ package english.project.com.toiec.POJO.progress;
  */
 
 public class ProcessUser {
-    private ProcessToeicTest MoreTest;
-    private ProcessToeicTest Advanced;
-    private ProcessToeicTest Intermediate;
+    private ProcessBookTest MoreTest;
+    private ProcessBookTest Advanced;
+    private ProcessBookTest Intermediate;
 
-    public ProcessToeicTest getMoreTest() {
+    public void setMoreTest(ProcessBookTest moreTest) {
+        MoreTest = moreTest;
+    }
+
+    public void setAdvanced(ProcessBookTest advanced) {
+        Advanced = advanced;
+    }
+
+    public void setIntermediate(ProcessBookTest intermediate) {
+        Intermediate = intermediate;
+    }
+
+    public ProcessBookTest getMoreTest() {
         return MoreTest;
     }
 
-    public ProcessToeicTest getAdvanced() {
+    public ProcessBookTest getAdvanced() {
         return Advanced;
     }
 
-    public ProcessToeicTest getIntermediate() {
+    public ProcessBookTest getIntermediate() {
         return Intermediate;
     }
 }

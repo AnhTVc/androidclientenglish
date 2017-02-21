@@ -16,6 +16,24 @@ public class ProcessToeicTest {
     private int processPastSix;
     private int processPastSeven;
 
+    public ProcessToeicTest(){};
+    public ProcessToeicTest(int processPastOne,
+                            int processPastTwo,
+                            int processPastThree,
+                            int processPastFour,
+                            int processPastFive,
+                            int processPastSix,
+                            int processPastSeven){
+        this.processPastFive = processPastFive;
+        this.processPastFour = processPastFour;
+        this.processPastOne = processPastOne;
+        this.processPastSeven = processPastSeven;
+        this.processPastSix = processPastSix;
+        this.processPastThree = processPastThree;
+        this.processPastTwo = processPastTwo;
+
+    };
+
     public void setProcessPastOne(int processPastOne) {
         this.processPastOne = processPastOne;
     }
