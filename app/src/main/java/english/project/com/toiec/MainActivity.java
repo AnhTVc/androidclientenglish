@@ -16,14 +16,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import java.io.File;
+
 import english.project.com.toiec.english.project.com.service.util.ConstantDefine;
 import english.project.com.toiec.english.project.com.service.util.ToeicTestActivity;
-import english.project.com.toiec.question.QuestionMainActivity;
+import english.project.com.toiec.question.PDFUtilImp;
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
-    public final static String EXTRA_MESSAGE = "english.project.com.toiec.MESSAGE";
-
+    public final static String EXTRA_MESSAGE_BOOK_NAME = "english.project.com.toiec.MESSAGE.book.name";
+    public final static String EXTRA_MESSAGE_TOEIC_TEST = "english.project.com.toiec.MESSAGE.toeic.test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,16 +61,14 @@ public class MainActivity extends AppCompatActivity
         btnIntermediate.setOnClickListener(this);
         btnAdvanced.setOnClickListener(this);
         btnMoreTest.setOnClickListener(this);
-        /*
-         final Intent intent = new Intent(this, ToeicTestActivity.class);
-         new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent.putExtra(EXTRA_MESSAGE, ConstantDefine.BOOK_LONGMAN_MoreTest);
-                startActivity(intent);
-            }
-        }*/
 
+        // Check file save process of user in data
+        PDFUtilImp pdfUtilImp = new PDFUtilImp();
+        if(!pdfUtilImp.checkFileExist(
+                new File(getApplicationContext().getFilesDir(), ConstantDefine.FILE_NAME_PROCESS_USER)))
+            pdfUtilImp.autoInitProcessFile(getApplicationContext());
+
+        // end check progress
     }
 
     @Override
@@ -102,20 +103,93 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Onclick to button begin in book name
+     * Open dialog choose toeic test.
+     * @param v: view
+     */
     @Override
     public void onClick(View v){
+        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        final Intent intent = new Intent(this, ToeicTestActivity.class);
+        Button btnTestOne, btnTestTwo, btnTestThree, btnTestFour;
+
         switch (v.getId()) {
             case R.id.btnIntermediate:
+                alertDialog.setContentView(R.layout.dialog_introduct_one_question);
 
+                Button btnStart = (Button) alertDialog.findViewById(R.id.btnStart);
+                btnStart.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                    // Open
+                    intent.putExtra(EXTRA_MESSAGE_BOOK_NAME, ConstantDefine.BOOK_LONGMAN_Intermediate);
+                    intent.putExtra(EXTRA_MESSAGE_TOEIC_TEST, ConstantDefine.TOEIC_TEST_ONE);
+                    }
+                });
+
+                alertDialog.show();
                 break;
             case R.id.btnAdvanced:
+                alertDialog.setContentView(R.layout.dialog_introduct_two_question);
+
+                btnTestOne = (Button) alertDialog.findViewById(R.id.btnTestOne);
+                btnTestTwo = (Button) alertDialog.findViewById(R.id.btnTestTwo);
+                intent.putExtra(EXTRA_MESSAGE_BOOK_NAME, ConstantDefine.BOOK_LONGMAN_Advanced);
+
+                btnTestOne.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                    intent.putExtra(EXTRA_MESSAGE_TOEIC_TEST, ConstantDefine.TOEIC_TEST_ONE);
+                    }
+                });
+
+                btnTestTwo.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                    intent.putExtra(EXTRA_MESSAGE_TOEIC_TEST, ConstantDefine.TOEIC_TEST_TWO);
+                    }
+                });
 
                 break;
             case R.id.btnMoreTest:
+                alertDialog.setContentView(R.layout.dialog_introduct_four_question);
+
+                btnTestOne = (Button) alertDialog.findViewById(R.id.btnTestOne);
+                btnTestTwo = (Button) alertDialog.findViewById(R.id.btnTestTwo);
+                btnTestThree = (Button) alertDialog.findViewById(R.id.btnTestThree);
+                btnTestFour = (Button) alertDialog.findViewById(R.id.btnTestFour);
+                btnTestOne.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                    intent.putExtra(EXTRA_MESSAGE_TOEIC_TEST, ConstantDefine.TOEIC_TEST_ONE);
+                    }
+                });
+
+                btnTestTwo.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                    intent.putExtra(EXTRA_MESSAGE_TOEIC_TEST, ConstantDefine.TOEIC_TEST_TWO);
+                    }
+                });
+                btnTestThree.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                    intent.putExtra(EXTRA_MESSAGE_TOEIC_TEST, ConstantDefine.TOEIC_TEST_THREE);
+                    }
+                });
+                btnTestFour.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        intent.putExtra(EXTRA_MESSAGE_TOEIC_TEST, ConstantDefine.TOEIC_TEST_FOUR);
+                    }
+                });
                 break;
             default:
                 break;
         }
+
+        startActivity(intent);
     }
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

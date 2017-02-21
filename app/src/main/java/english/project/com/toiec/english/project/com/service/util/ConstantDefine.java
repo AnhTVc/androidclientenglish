@@ -9,4 +9,10 @@ public class ConstantDefine {
     public static final String BOOK_LONGMAN_Advanced = "2";
     public static final String BOOK_LONGMAN_MoreTest = "3";
 
+    public static final String TOEIC_TEST_ONE = "1";
+    public static final String TOEIC_TEST_TWO= "2";
+    public static final String TOEIC_TEST_THREE = "3";
+    public static final String TOEIC_TEST_FOUR = "4";
+
+    public static final String FILE_NAME_PROCESS_USER = "process.txt";
 }

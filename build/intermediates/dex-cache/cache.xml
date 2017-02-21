@@ -3,147 +3,147 @@
 
     <item
         is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_3a2253d3d5bc8e9529bf32415664f9fe99885046\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_2b98e10dfe354e62a896e2201aa8c8d5fb2da5a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_72e19269e6ee0f45400e3d63332b42a58a6aa8b5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_d0d96ac55d3bfd8ea3ca67ef19c43a35c179683a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_70c13e6919f21699026220364ed0938ec44faf24\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_6143d7486f7088b1d1a91fe146f85aaa405ac32b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\VietAnh\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_118ae734e90e37fbedb454f7ef92e7c76485083d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_ecadb09fbfe585a4728922a8c4d38535b1191d22\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_a3b0387eecefa2c2c5813538f441bf75e91ec0fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_ee7ae2cf85f8dc080d5f1fabc77cda5d0cce65b6\classes.dex" />
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_160932115465125472c90e246a856e3db8cc9b67/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_9016afb341096bca2791af8b5387232f12e5f69f\classes.dex" />
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_44ea812a467ca7cc30a054d0bbc66bf9a3670370/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.github.lzyzsd\circleprogress\1.1.0\jars\classes.jar"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e6f9fb0d2ea982d656d6dca785a9097659395874">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.lzyzsd-circleprogress-1.1.0_3fd8eb6b7c31208443b5999042944ce971ead20a\classes.dex" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_93fac5da4176b2e38fcae378e49a89349e33f752/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_3c6beb442ebdd485051d8042011a93f637243747\classes.dex" />
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_ddf43fbcb8fc414754f3a91e3b39899cdeb3b985/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="51fa03bfd399ed45ee9ca67570db2f1054af328a">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_96c1a6709e980e8db0ee367d51f2b0cd6abbbccc\classes.dex" />
+        sha1="955d4dbd16a60960692b546ddfb7a4a8f1daff5b">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c88203e497156a22194fdb0425c27fc2ba5e9ac6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e9c5f49417aaf2811d553f3193f58b305fd7ab48">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_45fd728bad17840d01ff14c8b822b6801f49f6cd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="D:\Data\Du An\20022017\androidclientenglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_ec6b2a72057e5c49f9c5d1251f01c3a8ac435deb\classes.dex" />
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_2af6000ce16d8e953b7b1cd26190be783d859460/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_ab2dca0c7bb54baa4be26e2e6390b1972ad67800/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_9d52ff898cee2a7f3e041881f52fe38015514bc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_6d206e1128742c28b784d0b6df3135b6bb6f4f82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0e757490a4246b9b706666026c00d59fdcb81eb1">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1ea769690c9df3ebddebc6c5b170021c061aeb15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.github.lzyzsd/circleprogress/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e6f9fb0d2ea982d656d6dca785a9097659395874">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.lzyzsd-circleprogress-1.1.0_234b03ebbb05fb8fd5f4c6f2ae6173a30d590c5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_496777e25c7e41254018aba7d3e3b81dd9c05770/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_390a505ec94d3b26776570ae0b1f4d4e9d7d62ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_7998ebbf1a582b18ddea15729b0a791b00f6d2a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_7a8a651ccac6b3089a6dee9ac3abc2a2d1f43fa6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/nguyenmanhtuan/Documents/AnhTVc/other/androidclientenglish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_fae1ccaff9d4aca1dfadd52a199d9c006fb85274/classes.dex" />
     </item>
 
 </items>

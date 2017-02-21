@@ -59,7 +59,7 @@
 
                 <com.github.lzyzsd.circleprogress.DonutProgress
 
-                    android:id="@+id/donut_progresspasttwo"
+                    android:id="@+id/donut_progresspastone"
                     android:layout_width="70dp"
                     android:layout_marginTop="10dp"
                     android:layout_centerHorizontal="true"
@@ -107,7 +107,7 @@
 
                 <com.github.lzyzsd.circleprogress.DonutProgress
 
-                    android:id="@+id/donut_progresspastthree"
+                    android:id="@+id/donut_progresspasttwo"
                     android:layout_width="70dp"
                     android:layout_marginTop="10dp"
                     android:layout_centerHorizontal="true"
@@ -160,7 +160,7 @@
 
                 <com.github.lzyzsd.circleprogress.DonutProgress
 
-                    android:id="@+id/donut_progresspastfour"
+                    android:id="@+id/donut_progresspastthree"
                     android:layout_width="70dp"
                     android:layout_marginTop="10dp"
                     android:layout_centerHorizontal="true"
@@ -208,7 +208,7 @@
 
                 <com.github.lzyzsd.circleprogress.DonutProgress
 
-                    android:id="@+id/donut_progresspastone"
+                    android:id="@+id/donut_progresspastfour"
                     android:layout_width="70dp"
                     android:layout_marginTop="10dp"
                     android:layout_centerHorizontal="true"
