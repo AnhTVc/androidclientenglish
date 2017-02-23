@@ -19,6 +19,11 @@ import english.project.com.toiec.POJO.progress.ProcessToeicTest;
 import english.project.com.toiec.POJO.progress.ProcessUser;
 import english.project.com.toiec.R;
 import english.project.com.toiec.question.PDFUtilImp;
+import english.project.com.toiec.question.QuestionPastFiveActivity;
+import english.project.com.toiec.question.QuestionPastOneActivity;
+import english.project.com.toiec.question.QuestionPastSixActivity;
+import english.project.com.toiec.question.QuestionPastThreeActivity;
+import english.project.com.toiec.question.QuestionPastTwoActivity;
 
 public class ToeicTestActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -28,7 +33,8 @@ public class ToeicTestActivity extends AppCompatActivity implements View.OnClick
     LinearLayout linerLayoutPastOne, linerLayoutPastTwo, linerLayoutPastThree
             ,linerLayoutPastFour, linerLayoutPastFive, linerLayoutPastSix
             , linerLayoutPastSeven;
-
+    // Create object public
+    public static ToiecTest toiecTest = null;          // Object
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         final String URL_FILE_RESULT_TEMP = "/Users/nguyenmanhtuan/Documents/AnhTVc/other/2-Intermediate/test_2.json";
@@ -55,7 +61,7 @@ public class ToeicTestActivity extends AppCompatActivity implements View.OnClick
         PDFUtilImp pdfUtilImp = new PDFUtilImp();
         String content = pdfUtilImp.fileToString(URL_FILE_RESULT_TEMP);
         Gson gson = new Gson();
-        ToiecTest toiecTest = gson.fromJson(content, ToiecTest.class);
+        toiecTest = gson.fromJson(content, ToiecTest.class);
 
         // Load progress
         String contentProcess = pdfUtilImp.fileToString(
@@ -120,28 +126,39 @@ public class ToeicTestActivity extends AppCompatActivity implements View.OnClick
         donut_progresspastfive.setProgress(processToeicTest.getProcessPastFive() / ConstantDefine.MAX_QUESTION_PAST_FIVE);
         donut_progresspastsix.setProgress(processToeicTest.getProcessPastSix() / ConstantDefine.MAX_QUESTION_PAST_SIX);
         donut_progresspastseven.setProgress(processToeicTest.getProcessPastSeven() / ConstantDefine.MAX_QUESTION_PAST_SEVEN);
-
     }
 
     @Override
     public void onClick(View v) {
+        Intent intent = null;
+
         switch (v.getId()){
             case R.id.linerLayoutPastOne:
+                intent = new Intent(this, QuestionPastOneActivity.class);
                 break;
             case R.id.linerLayoutPastTwo:
+                intent = new Intent(this, QuestionPastTwoActivity.class);
                 break;
             case R.id.linerLayoutPastThree:
+                intent = new Intent(this, QuestionPastThreeActivity.class);
                 break;
             case R.id.linerLayoutPastFour:
+                intent = new Intent(this, QuestionPastThreeActivity.class);
                 break;
             case R.id.linerLayoutPastFive:
+                intent = new Intent(this, QuestionPastFiveActivity.class);
                 break;
             case R.id.linerLayoutPastSix:
+                intent = new Intent(this, QuestionPastSixActivity.class);
                 break;
             case R.id.linerLayoutPastSeven:
+                intent = new Intent(this, QuestionPastSixActivity.class);
                 break;
             default:
                 break;
         }
+
+        // start activity
+        startActivity(intent);
     }
 }

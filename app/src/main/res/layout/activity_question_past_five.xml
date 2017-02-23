@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_question_past_five"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="english.project.com.toiec.question.QuestionPastFiveActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include android:id="@+id/viewquestion1"
+            layout="@layout/questionlayout"/>
+        <include android:id="@+id/viewquestion2"
+            layout="@layout/questionlayout"/>
+        <include android:id="@+id/viewquestion3"
+            layout="@layout/questionlayout"/>
+        <include android:id="@+id/viewquestion4"
+            layout="@layout/questionlayout"/>
+        <include android:id="@+id/viewquestion5"
+            layout="@layout/questionlayout"/>
+
+    </LinearLayout>
+</ScrollView>

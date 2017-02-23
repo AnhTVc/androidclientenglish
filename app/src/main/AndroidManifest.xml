@@ -23,9 +23,12 @@
         <activity android:name=".question.QuestionPastTwoActivity" />
         <activity android:name=".question.QuestionPastThreeActivity" />
         <activity android:name=".question.QuestionPastSixActivity" />
-        <activity android:name=".question.QuestionMainActivity"></activity>
+        <activity android:name=".question.QuestionMainActivity" />
+
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+        <activity android:name=".question.QuestionPastFiveActivity"></activity>
     </application>
 
 </manifest>
